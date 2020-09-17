@@ -24,4 +24,12 @@ namespace WindowsFormsApp9
             return Text;
         }
     }
+    public class EffTime
+    {
+        public DateTimeOffset Datefirst { get; set; }
+        public DateTimeOffset Datesecond { get; set; }
+        public long Worker { get; set; }
+        public double Efftime { get; set; }
+    }
+
 }

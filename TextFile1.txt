@@ -88,26 +88,6 @@ namespace QuickType
         [JsonProperty("time")]
         public DateTime Time { get; set; }
     }
-    public partial class WorkerDepart
-    {
-        [JsonProperty("model")]
-        public string Model { get; set; }
-
-        [JsonProperty("pk")]
-        public long Pk { get; set; }
-
-        [JsonProperty("fields")]
-        public WorkerDepartFields Fields { get; set; }
-    }
-
-    public partial class WorkerDepartFields
-    {
-        [JsonProperty("time")]
-        public DateTimeOffset Time { get; set; }
-
-        [JsonProperty("workerarrive")]
-        public long Workerarrive { get; set; }
-    }
 
     public partial class WorkerTable
     {
